@@ -1,4 +1,4 @@
-print('Uxugin Analyze 1.0.0')
+print('Uxugin Analyze 1.1.0')
 
 import numpy
 import scipy
@@ -30,3 +30,6 @@ print('MAD: '+str(mad))
 
 iqr=scipy.stats.iqr(data)
 print('IQR: '+str(iqr))
+
+std=numpy.std(data)
+print('Standard Deviation: '+str(std))
